@@ -34,7 +34,7 @@ environment:
 build_script:
   # Must create separate build dir, otherwise can't read test files
   # for some reason.
-  - mkdir build
+  - mkdir buildt
   - cd build
   # Treat all warnings as errors.
   - cmake .. -G"%CMAKE_GENERATOR%" -T"%CMAKE_TOOLSET%" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=C:\simbody
