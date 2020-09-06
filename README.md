@@ -82,7 +82,7 @@ Features
 - Visualizer, using OpenGL
 
 
-You want to...
+You want to....
 --------------
 * **[install Simbody](#installing)**.
 * [use Simbody in your own program][user].
